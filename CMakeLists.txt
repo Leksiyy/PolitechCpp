@@ -3,4 +3,5 @@ project(Politech)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Politech lr1/main.cpp)
+add_executable(Politech lr1/main.cpp
+        lr1/popov_class.h)
